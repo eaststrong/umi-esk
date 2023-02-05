@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "author": "Your Name <youremail@domain.com>",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "format": "prettier --cache --write .",
+    "prepare": "husky install",
+    "postinstall": "max setup",
+    "setup": "max setup"
+  },
+  "dependencies": {
+    "@ant-design/icons": "latest",
+    "@ant-design/pro-components": "latest",
+    "@umijs/max": "latest",
+    "antd": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "prettier": "latest",
+    "prettier-plugin-organize-imports": "latest",
+    "prettier-plugin-packagejson": "latest",
+    "typescript": "latest"
+  }
+}
