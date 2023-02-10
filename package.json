@@ -5,7 +5,6 @@
     "dev": "max dev",
     "format": "prettier --cache --write .",
     "postinstall": "max setup",
-    "prepare": "husky install",
     "setup": "max setup"
   },
   "dependencies": {
@@ -17,7 +16,6 @@
   "devDependencies": {
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "husky": "latest",
     "lint-staged": "latest",
     "prettier": "latest",
     "prettier-plugin-organize-imports": "latest",
